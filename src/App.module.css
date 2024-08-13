@@ -1,0 +1,105 @@
+/* App.module.css */
+.appContainer {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+}
+
+.inputContainer {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.inputFile {
+  display: block;
+  margin: 10px auto;
+}
+
+.addButton {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.songList {
+  margin-top: 20px;
+}
+
+.songItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.coverImage {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.songDetails {
+  flex: 1;
+}
+
+.audioPlayer {
+  margin-top: 5px;
+  width: 100%;
+}
+
+.deleteButton {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.deleteButton:hover {
+  background-color: #c62828;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .header {
+    font-size: 1.5rem;
+  }
+
+  .inputContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inputFile, .addButton {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .songItem {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .coverImage {
+    width: 100px;
+    height: 100px;
+  }
+}
