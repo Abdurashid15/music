@@ -97,14 +97,14 @@ function App() {
       <h1 className={styles.header}>Music App</h1>
 
       <div className={styles.inputContainer}>
-        <label htmlFor="foto">Img</label>
+        <label htmlFor="music">Music</label>
         <input
           type="file"
           accept="audio/*"
           onChange={handleSongFileUpload}
           className={styles.inputFile}
         />
-        <label htmlFor="music">Music</label>
+        <label htmlFor="foto">Img</label>
         <input
           type="file"
           accept="image/*"
